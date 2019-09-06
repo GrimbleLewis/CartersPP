@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+
+.logo2 {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.navbar {
+  background-color: #a5d5ed;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+ul.logo-info {
+  list-style-type: none;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.header-catchphrase {
+    font-style: italic;
+}
+
+
+.navbar > .navLogo {
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid black;
+}
+
+
+.navSearch {
+    margin: 0 auto;
+}
+
+a {
+    color: inherit;
+}
+
+
+
+/* @media (min-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+} */
