@@ -107,6 +107,30 @@ a {
   padding-bottom: 0.5em;
 }
 
+.footer-social {
+  background-color: #4e8fb6;
+}
+
+.fa-facebook {
+  color: white;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0;
+}
+
+.fa-instagram {
+  color: white;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.2em;
+}
+
+.footer-social-number {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: right;
+}
+
 @media (max-width: 991px) {
   .navSearch {
     margin: 0;
@@ -120,6 +144,10 @@ a {
   }
   .logo-info {
     font-size: 4vw;
+  }
+  .footer-social-number h2 {
+    font-size: 2em;
+    margin: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
